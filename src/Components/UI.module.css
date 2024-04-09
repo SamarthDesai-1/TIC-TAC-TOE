@@ -1,0 +1,32 @@
+.container {
+  border: 1px solid black;
+}
+.row {
+  display: flex;
+}
+.cell {
+  border: 1px solid lightgreen;
+  height: 100px;
+  width: 100px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkgreen;
+}
+.cell:hover {
+  background-color: lightgreen;
+}
+.message {
+  margin: 10px;
+}
+.btn {
+  background-color: lightgreen;
+  min-width: 100px;
+  color: darkgreen;
+  font-weight: bold;
+  border-radius: 5px;
+}
